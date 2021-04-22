@@ -5,6 +5,7 @@ node('master') {
     stage('build') {
         sh 'git log'
    }
-   
-    
+     stage('build') {
+        sh 'git branch rr'
+   }
 }
