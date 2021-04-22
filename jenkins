@@ -1,0 +1,10 @@
+node('master') {
+    stage('clone') {
+        git 'https://github.com/shoaibshaikmd/git_hub-repository.git'
+   }
+    stage('build') {
+        sh 'git log'
+   }
+   
+    
+}
